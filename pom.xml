@@ -9,9 +9,10 @@
         <module>eurekarprovider</module>
         <module>consumer</module>
         <module>feign</module>
-        <module>springconfigserver</module>
         <module>nativeconfigserver</module>
         <module>nativeconfigclient</module>
+        <module>remoteconfigclient</module>
+        <module>configserverremote</module>
     </modules>
     <repositories>
         <repository>

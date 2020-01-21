@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+cloud:
+  config:
+    server:
+      git:
+        uri: https://github.com/seen2016/SpringCloundTest.git
+        search-paths: # Git仓库中存放配置⽂文件的路路径
+        username: seen2016
+        passphrase: lpf881220.
+    label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

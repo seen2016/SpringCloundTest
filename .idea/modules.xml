@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/nativeconfigserver/nativeconfigserver.iml" filepath="$PROJECT_DIR$/nativeconfigserver/nativeconfigserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/remoteconfigclient/remoteconfigclient.iml" filepath="$PROJECT_DIR$/remoteconfigclient/remoteconfigclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudtest.iml" filepath="$PROJECT_DIR$/springcloudtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testzipkinclient/testzipkinclient.iml" filepath="$PROJECT_DIR$/testzipkinclient/testzipkinclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testzipkinserver/testzipkinserver.iml" filepath="$PROJECT_DIR$/testzipkinserver/testzipkinserver.iml" />
     </modules>
   </component>
 </project>

@@ -11,7 +11,7 @@ spring:
           search-paths: /config/repoconfig
           username: seen2016
           passphrase: lpf881220.
-          basedir: D:/IdeaProject/springcloudtest/config/repoconfig
+#          basedir: D:/IdeaProject/springcloudtest/config/repoconfig
       label: master
 eureka:
   client:

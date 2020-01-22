@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by seen on 2020/1/21.
  */
 @RestController
-@RequestMapping("/native")
+@RequestMapping("/remoteconfigclient")
 public class TestController {
 
     @Value("${server.port}")

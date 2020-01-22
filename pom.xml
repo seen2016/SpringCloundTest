@@ -13,6 +13,8 @@
         <module>nativeconfigclient</module>
         <module>remoteconfigclient</module>
         <module>configserverremote</module>
+        <module>testzipkinserver</module>
+        <module>testzipkinclient</module>
     </modules>
     <repositories>
         <repository>
@@ -40,14 +42,13 @@
 
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
+
+
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -72,7 +73,6 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
         </dependency>
-
 
 
 

@@ -7,11 +7,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/seen2016/SpringCloundTest
-          search-paths: /config/repoconfig
+          uri: https://github.com/seen2016/SpringCloundTest.git
+          search-paths: config
           username: seen2016
           passphrase: lpf881220.
-#          basedir: D:/IdeaProject/springcloudtest/config/repoconfig
+          basedir: D:/IdeaProject/springcloudtest/config/repoconfig
+          force-pull: true
       label: master
 eureka:
   client:
